@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family : 'Roboto',sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f2027,#203a43,#2c5364);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.choice {
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    padding: 1rem;
+    transition: transform 0.3s , background 0.3s;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background: rgba(255,255,255,0.2);
+    transform: scale(1.1);
+}
+
+.choice img {
+    width:100px;
+    height: 100px;
+    object-fit: contain;
+}
+img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    
+}
+
+.score {
+    text-align: center;
+}
+
+.score p {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#user-score, #comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 2rem;
+}
+
+#msg {
+    
+    background-color: #081b31;
+    color: #fff;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#reset-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#reset-btn:hover {
+    background-color: #e60000;
+}
+
+@media (max-width: 600px) {
+    .choice img {
+        width: 70px;
+        height: 70px;
+    }
+}
