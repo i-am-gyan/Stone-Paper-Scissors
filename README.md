@@ -35,7 +35,7 @@ rock-paper-scissors/
 | Screenshot | Description |
 |-----------|-------------|
 | ![UI](https://github.com/i-am-gyan/Stone-Paper-Scissors/blob/e33d4c68884714ffdde703a60bd2fb5e0e9e841b/Screenshots/Game-Interface.png) | 🎮 Game Interface |
-| ![Choice](images/round-play.png) | 👆 Player Choice |
+| ![Choice](https://github.com/i-am-gyan/Stone-Paper-Scissors/blob/340bedf17dfb9f64e55d08e965ebf3b0ad69dc20/Screenshots/Player-Choice.png) | 👆 Player Choice |
 | ![Result](images/game-result.png) | 🤖 Result Display |
 | ![Mobile](images/reset-button.png) | 📱 Mobile View |
 | ![Hover](images/mobile-view.png) | 🎨 Hover Effects |
