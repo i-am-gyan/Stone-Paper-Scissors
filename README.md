@@ -34,7 +34,7 @@ rock-paper-scissors/
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![UI](images/ui.png) | 🎮 Game Interface |
+| ![UI](https://github.com/i-am-gyan/Stone-Paper-Scissors/blob/e33d4c68884714ffdde703a60bd2fb5e0e9e841b/Screenshots/Game-Interface.png) | 🎮 Game Interface |
 | ![Choice](images/round-play.png) | 👆 Player Choice |
 | ![Result](images/game-result.png) | 🤖 Result Display |
 | ![Mobile](images/reset-button.png) | 📱 Mobile View |
